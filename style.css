@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.companyname{
+    text-transform:uppercase;
+    display: flex;
+    justify-content: center;
+}
+.companyname h1{
+    background-color: rgb(202, 15, 189);
+    padding: 8px 20px;
+    margin-top: 10px;
+    border-radius: 13px;
+}
+.brife{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+hr {
+    width: 50%;
+    color: rgb(202, 15, 189);
+    display: block; /* Ensure <hr> is a block-level element */
+    margin: 0 auto; /* Set top and bottom margin to 0 and horizontal margin to auto */
+    border: 3px dotted rgb(202, 15, 189);
+
+}
+.companyname h2{
+    margin-top: 20px;
+}
+.companyname h4{
+    background-color: rgb(202, 15, 189);
+    padding: 8px 20px;
+    margin-top: 10px;
+    border-radius: 13px;
+}
+.img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+
+}
+.team1{
+    display: flex;
+    justify-content:space-evenly
+}    
+.img{    
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.img h1 p{
+    margin-left: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content:right;
+    padding: 20px;
+    text-decoration: none;
+    background-color: rgb(202, 15, 189);
+
+
+}
+
+nav ul li{
+    text-transform: uppercase;
+    margin-left: 40px;
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+   color:  rgb(202, 15, 189);
+}
